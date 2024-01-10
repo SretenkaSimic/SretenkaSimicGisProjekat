@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Izrada GIS baze žrtava genocida 1941-1945 na teritoriji Rasinskog okruga" company="Master GIS upravljanje projektima" webLink="http://" view-date="2024-01-19" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="sr_RS">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="назив" width="200" order="0"/>
+        <field id="tpd4" name="почетак" width="75" order="1"/>
+        <field id="tpd5" name="завршетак" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#00cc00 #ffff00 #ff3333 #6633ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Име" width="210" order="0"/>
+        <field id="1" name="подразумевана улога" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="5" name="Prvi_projekat" color="#000000" meeting="false" start="2024-01-02" duration="72" complete="0" thirdDate="2024-01-02" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Definisanje teme projekta" color="#6633ff" meeting="false" start="2024-01-02" duration="6" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="1" name="Analiza podataka iz baze žrtava genocida za odabranu teritoriju" color="#ff3333" meeting="false" start="2024-01-09" duration="3" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="Učitavanje i obrada podataka u QGIS" color="#ffff00" meeting="false" start="2024-01-11" duration="7" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Finalizacija projekta" color="#00cc00" meeting="false" start="2024-01-19" duration="59" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
